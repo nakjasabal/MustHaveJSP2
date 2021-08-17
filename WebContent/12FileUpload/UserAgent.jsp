@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>User-Agent 확인하기</title>
 </head>
 <body>
-
+<%
+String client = request.getHeader("User-Agent");
+out.println(client);
+%>
 </body>
 </html>

@@ -23,8 +23,8 @@ public class SearchAPI extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        String clientId = "B2IQxcs4AYqNTQz3S4dz"; //애플리케이션 클라이언트 아이디값"
-        String clientSecret = "KUNKcxtet6"; //애플리케이션 클라이언트 시크릿값"
+        String clientId = ""; //애플리케이션 클라이언트 아이디값"
+        String clientSecret = ""; //애플리케이션 클라이언트 시크릿값"
 
 
         int startNum = 0;
